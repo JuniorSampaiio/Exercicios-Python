@@ -4,7 +4,7 @@ import mysql.connector
 conexao = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="@Over091195",
+    passwd="*******",
     database="crudpython",
 )
 
@@ -50,4 +50,5 @@ conexao.close()
 # valor = 6
 # comando = f'DELETE FROM vendas WHERE nome_produto = "{nome_produto}"'
 # cursor.execute(comando)  # EXECUTA o comando SQL
+
 # conexao.commit()
